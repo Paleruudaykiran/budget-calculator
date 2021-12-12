@@ -1,0 +1,138 @@
+* {
+  margin:0;
+}
+.App {
+  text-align: center;
+  background-color: #282c34;
+  min-height:100vh;
+}
+.App-header {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  font-size: calc(10px + 2vmin);
+  color: orange;
+  padding:10px;
+}
+main {
+  background-color: antiquewhite;
+  padding: calc(10px + 2vmin);
+  display:inline-block;
+  border : 2px solid black;
+  border-radius: 7px;
+}
+input {
+  border:none;
+  background-color:inherit;
+  border-bottom: 1px solid red;
+  padding:4px 3px;
+}
+input:focus {
+  outline: none;
+  border-bottom: 2px solid black;
+}
+.App-footer {
+  color : orange;
+  font-size: calc(10px + 2vmin);
+
+}
+.total {
+  background-color:blue;
+  padding:1px 3px;
+  margin-top:10px;
+  display:inline-block;
+}
+.form-center {
+  display:flex;
+  flex-wrap: wrap;
+  text-align: left;
+  justify-content: center;
+}
+label {
+  text-align: left;
+  color:cadetblue;
+}
+.form-center > * {
+  margin-bottom: 10px;
+  margin-left : 10px;
+}
+.btn {
+  background-color: blueviolet;
+  border:none;
+  color:black;
+  text-align: center;
+  font-size: calc(8px + 2vmin);
+  display:inline-flex;
+  justify-content: center;
+  align-items: center;
+  font-weight: bold;
+  text-transform: capitalize;
+  margin:10px 0;
+  border:0.1px solid black;
+}
+.btn:hover {
+  background-color:aqua;
+}
+.btn-icon {
+  color:wheat;
+  margin-left:3px;
+}
+.list {
+  /* background-color:green; */
+  padding-inline-start: 0px;
+  list-style-type: none;
+  padding:2px;
+}
+li {
+  display:flex;
+  justify-content: space-between;
+  background-color:aqua;
+  border:1px solid black;
+  margin-bottom:3px;
+  padding:2px;
+}
+/* li:hover {
+  transform: scaleX(1.2);
+  border:2px solid black;
+} */
+li:hover {
+  border:1px solid white;
+  background-color: cadetblue;
+}
+.info{
+  display:block;
+}
+.amount {
+  background-color: red;
+  padding:0px 3px;
+  color:white;
+  border:1px solid black;
+  border-radius: 3px;
+  margin-left:5px;
+}
+.edit-btn,.delete-btn {
+    border:none;
+    background-color:inherit;
+}
+.delete-btn {
+  color:red;
+}
+.edit-btn {
+  color:black;
+}
+.error {
+  background-color: red;
+  display:inline-block;
+  padding:0;
+  margin-top:2px;
+  border:1px solid black;
+  border-radius: 5px;
+  min-width:400px;
+  color:black;
+  font-weight: bold;
+}
+.error p {
+  padding:0;
+  margin:0;
+}
